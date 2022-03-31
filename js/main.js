@@ -1,4 +1,8 @@
 $(function(){
+
+    AOS.init({
+        duration: 1400,
+    });
     
     $('.slider').slick({
         arrows: false,
@@ -16,4 +20,5 @@ $(function(){
         $('.menu').removeClass('active');
     });
 
+    AOS.refresh();
 });

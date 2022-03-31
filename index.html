@@ -30,6 +30,7 @@
 
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/aos.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/media.css">
 </head>
@@ -172,7 +173,7 @@
     <div class="container">
       <div class="advantages-inner">
 
-        <div class="advantages-inner__row advantages-inner__row--mobile">
+        <div class="advantages-inner__row advantages-inner__row--mobile" data-aos="fade-down-right">
 
           <div class="advantages-descr">
             <div class="advantages__title">
@@ -189,7 +190,7 @@
 
         </div>
 
-        <div class="advantages-inner__row">
+        <div class="advantages-inner__row" data-aos="fade-up-right">
 
           <div class="advantages__img">
             <img src="./images/page_photo/photo2.jpeg" alt="">
@@ -215,20 +216,21 @@
           </div>
 
         </div>
+
       </div>
     </div>
   </section> 
 
-  <section class="design">
+  <section class="design" >
     <div class="container">
 
-      <div class="design__images">
+      <div class="design__images" data-aos="zoom-in-down"  data-aos-offset="500">
         <img src="./images/page_photo/photo3.jpg" alt="">
       </div>
 
       <div class="design-row">
 
-        <div class="design-row__item">
+        <div class="design-row__item" data-aos="zoom-in" >
 
           <div class="design-row__item-num">01</div>
 
@@ -240,7 +242,7 @@
 
         </div>
 
-        <div class="design-row__item">
+        <div class="design-row__item" data-aos="zoom-in" data-aos-delay="1000">
 
           <div class="design-row__item-num">02</div>
 
@@ -282,6 +284,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./js/slick.min.js"></script>
+  <script src="js/aos.js"></script>
   <script src="./js/main.js"></script>
 </body>
 </html>
